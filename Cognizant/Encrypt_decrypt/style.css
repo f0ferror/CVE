@@ -1,0 +1,16 @@
+/* Styles go here */
+
+label{
+  font-weight:bolder;
+  font-family:georgia,garamond,serif;
+  font-size:16px; 
+  
+}
+
+fieldset{
+  margin-bottom:1em;
+}
+
+input.long-input {
+  width: 100%;
+}

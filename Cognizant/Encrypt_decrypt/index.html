@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<!--original template:https://embed.plnkr.co/tGaZVJ/
+eddited by @f0ferror;Su-->
+<head>
+  <script data-require="jquery@3.1.1" data-semver="3.1.1" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.js"></script>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js"></script>
+</head>
+
+
+<body>
+  <h1 style="color: #5e9ca0;font-family:georgia,garamond,serif;text-align:center;">CryptoJS</h1>
+  <h2 style="color: #2e6c80;font-family:georgia,garamond,serif;text-align:center;">AES Encryption/Decryption</h2>
+  <div><p></p></div>
+  <fieldset>
+    <div>
+	  <p></p>
+      <label>Plain Text</label>
+      <input class="long-input" id="textInput" type="text" />
+    </div>	
+    <button onclick="encrypt()">Encrypt</button>
+
+	<div><p></p></div>
+	<div>
+	  <p></p>
+      <label>Encrypted Text</label>
+      <input class="long-input" id="entextInput" type="text" />
+    </div>
+
+    <button onclick="decrypt()">Decrypt</button>
+	<p></p>
+  </fieldset>
+  <!--
+  <div>
+    <label>Key:</label> <span id="key">?</span>
+  </div>
+  <div>
+    <label>IV:</label> <span id="iv">?</span>
+  </div>
+  <div>
+    <label>Input Text:</label> <span id="plainText">?</span>
+  </div>
+  -->
+  <div style="color: #B94229">
+    <label>Cipher Text:</label> <span id="cipherText">?</span>
+  </div>
+  <div style="color: #B94229">
+    <label>Plain Text:</label> <span id="decrypted">?</span>
+  </div>
+</body>
+
+</html>
