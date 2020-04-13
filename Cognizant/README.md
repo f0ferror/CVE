@@ -19,6 +19,8 @@ Target uses weak CryptoJS AES CBC encryption logic and has plaintext IV and key 
 #### Decryption : 
 ![image](https://github.com/f0ferror/CVE/blob/master/Cognizant/Encrypt_decrypt/poc_screenshot/weak_decryption_PoC.png)
 <br />
+<br />
+
 Download encryption/decryption script locally and test encryption/decryption logic <br />
 github : git clone https://github.com/f0ferror/CVE/tree/master/Cognizant/Encrypt_decrypt
 ![image](https://github.com/f0ferror/CVE/blob/master/Cognizant/Encrypt_decrypt/poc_screenshot/cryptojs_code.png)
