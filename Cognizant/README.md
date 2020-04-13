@@ -11,10 +11,11 @@ inurl: cognizant.com/#/login
 ## Weak Encryption/Decryption Logic
 Target uses weak CryptoJS AES CBC encryption logic and has plaintext IV and key values showing javascript. Any attacker can be encrypt/decrypt this same logic after checking out the javascript code; eg. (chrome/firefox/IE) console.
 
-Encryption :
+
+#### Encryption :
 ![image](https://github.com/f0ferror/CVE/blob/master/Cognizant/Encrypt_decrypt/poc_screenshot/weak_encryption_PoC.png)
 
-Decryption : 
+#### Decryption : 
 ![image](https://github.com/f0ferror/CVE/blob/master/Cognizant/Encrypt_decrypt/poc_screenshot/weak_decryption_PoC.png)
 
 
