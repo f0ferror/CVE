@@ -8,13 +8,13 @@
 GHDB : allintitle: "Digital operations fabric"
 	inurl: cognizant.com/#/login
 	
-### Weak Encryption/Decryption with CryptoJS AES Logic
-Target uses weak encryption/decryption mechanism. also has plaintext IV and key value showing on login.controller.*.js javascript.
-easily check with internet explorer(chrome/firefox/IE) console
-encryption : 
+### Weak Encryption/Decryption Logic
+
+Target uses weak CryptoJS AES CBC encryption logic and has plaintext IV and key values showing javascript. Any attacker can be encrypt/decrypt this same logic after checking out the javascript code; eg. (chrome/firefox/IE) console
+Encryption : 
 ![image](https://github.com/f0ferror/CVE/blob/master/Cognizant/Encrypt_decrypt/poc_screenshot/weak_encryption_PoC.png)
 
-decryption : 
+Decryption : 
 ![image](https://github.com/f0ferror/CVE/blob/master/Cognizant/Encrypt_decrypt/poc_screenshot/weak_decryption_PoC.png)
 
 
