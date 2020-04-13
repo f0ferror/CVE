@@ -1,8 +1,9 @@
 ## Exploit Cognizant v 4.13 
 
 *Target search 
-GHDB : allintitle: "Digital operations fabric"
-	inurl: cognizant.com/#/login
+GHDB : 
+allintitle: "Digital operations fabric"
+inurl: cognizant.com/#/login
 	
 ## Weak Encryption/Decryption Logic
 
