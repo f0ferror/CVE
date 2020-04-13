@@ -9,7 +9,7 @@ GHDB : allintitle: "Digital operations fabric"
 	inurl: cognizant.com/#/login
 	
 ### Weak Encryption/Decryption with CryptoJS AES Logic
-  
+Target uses weak encryption/decryption mechanism, please downlaod   
 
 ### Auth Bypass
 This exploit require to have access to application beforehand. 
