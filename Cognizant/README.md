@@ -9,7 +9,14 @@ GHDB : allintitle: "Digital operations fabric"
 	inurl: cognizant.com/#/login
 	
 ### Weak Encryption/Decryption with CryptoJS AES Logic
-Target uses weak encryption/decryption mechanism, please downlaod   
+Target uses weak encryption/decryption mechanism. also has plaintext IV and key value showing on login.controller.*.js javascript.
+easily check with internet explorer(chrome/firefox/IE) console
+encryption : 
+![image](https://github.com/f0ferror/CVE/blob/master/Cognizant/Encrypt_decrypt/poc_screenshot/weak_encryption_PoC.png)
+
+decryption : 
+![image](https://github.com/f0ferror/CVE/blob/master/Cognizant/Encrypt_decrypt/poc_screenshot/weak_decryption_PoC.png)
+
 
 ### Auth Bypass
 This exploit require to have access to application beforehand. 
@@ -19,7 +26,5 @@ This exploit require to have access to application beforehand.
 for more information, read https://CVE/..
 
 
-### Conclusions
-Simple mistakes can lead to full infrastructure compromise. In this case, reusing an HMAC secret totally defeated its intended purpose and allowed message tampering which when mixed with serialized data turned into full blown remote code execution.
-
 ## References 
+https://cryptojs.gitbook.io/docs/
