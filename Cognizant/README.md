@@ -17,6 +17,10 @@ Decryption :
 ![image](https://github.com/f0ferror/CVE/blob/master/Cognizant/Encrypt_decrypt/poc_screenshot/weak_decryption_PoC.png)
 
 
+Download encryption/decryption script locally and test encryption/decryption logic
+![image](https://github.com/f0ferror/CVE/blob/master/Cognizant/Encrypt_decrypt/poc_screenshot/cryptojs_code.png)
+
+
 ### Auth Bypass
 This exploit require to have access to application beforehand. 
  
