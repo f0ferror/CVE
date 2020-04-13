@@ -5,7 +5,8 @@ GHDB :
 allintitle: "Digital operations fabric"
 inurl: cognizant.com/#/login
 	
-	
+<br />
+<br />
 ## Weak Encryption/Decryption Logic
 
 
@@ -17,7 +18,7 @@ Decryption :
 ![image](https://github.com/f0ferror/CVE/blob/master/Cognizant/Encrypt_decrypt/poc_screenshot/weak_decryption_PoC.png)
 
 
-Download encryption/decryption script locally and test encryption/decryption logic &nbsp;
+Download encryption/decryption script locally and test encryption/decryption logic <br />
 github : git clone https://github.com/f0ferror/CVE/tree/master/Cognizant/Encrypt_decrypt
 ![image](https://github.com/f0ferror/CVE/blob/master/Cognizant/Encrypt_decrypt/poc_screenshot/cryptojs_code.png)
 
