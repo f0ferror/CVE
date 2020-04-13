@@ -17,3 +17,9 @@ This exploit require to have access to application beforehand.
   
 
 for more information, read https://CVE/..
+
+
+###Conclusions
+Simple mistakes can lead to full infrastructure compromise. In this case, reusing an HMAC secret totally defeated its intended purpose and allowed message tampering which when mixed with serialized data turned into full blown remote code execution.
+
+## References 
