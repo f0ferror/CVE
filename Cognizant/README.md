@@ -18,6 +18,7 @@ Decryption :
 
 
 Download encryption/decryption script locally and test encryption/decryption logic
+github : git clone https://github.com/f0ferror/CVE/tree/master/Cognizant/Encrypt_decrypt
 ![image](https://github.com/f0ferror/CVE/blob/master/Cognizant/Encrypt_decrypt/poc_screenshot/cryptojs_code.png)
 
 
