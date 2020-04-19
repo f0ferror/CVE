@@ -1,6 +1,6 @@
-## Exploit Cognizant v 4.13 
+## Target Search 
 
-Target search <br />
+Target : Cognizant v4.13 <br />
 GHDB : 
 <br />allintitle: "Digital operations fabric"
 <br />inurl: cognizant.com/#/login
