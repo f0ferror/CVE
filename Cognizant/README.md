@@ -2,8 +2,8 @@
 
 **Target** : Cognizant v4.13 <br />
 **GHDB** : 
-<br />- allintitle: "Digital operations fabric"
-<br />- inurl: cognizant.com/#/login
+<br />-allintitle: "Digital operations fabric"
+<br />-inurl: cognizant.com/#/login
 	
 <br />
 <br />
