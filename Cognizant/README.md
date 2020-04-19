@@ -9,7 +9,7 @@
 <br />
 
 ## Weak Encryption/Decryption Logic
-Target uses weak CryptoJS AES CBC encryption logic and has plaintext IV and key values showing javascript. Any attacker can be encrypt/decrypt this same logic after checking out the javascript code; eg. (chrome/firefox/IE) console.
+Target uses weak CryptoJS AES CBC encryption logic and has plaintext IV and key values revealed on javascript. Any attacker can be encrypt/decrypt this after checking out the javascript code; eg. (chrome/firefox/IE) console.
 <br />
 
 #### Encryption :
