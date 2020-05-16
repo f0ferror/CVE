@@ -14,6 +14,7 @@ On recent web platform, "Digital Operation Fabric" product version 4.13 has hard
 Target uses simple AES CBC encryption with hard-coded key and IV value on login form and stores encrypted values in log files internally(eg. \LogFiles\DOFAPI\FDIC370_17.03.2020.log or \LogFiles\ADMINAPI\FDIC370_20.03.2020.log)
 
 This allows malicious user easily decrypt/encrypt username and password value. This may allow attacker for bruteforcing, username enumeration etc. 
+
 To test the WEAK encryption/decryption simply on Internet Browser, you can run developer menu by CTRL+SHIFT+I(Inspect Element) or press [F12] on Chrome/Firefox.
 You can go to [console] tab and copy and paste below script and run. Please see more details on PoC github. https://github.com/f0ferror/CVE/tree/master/Cognizant
 <br />
