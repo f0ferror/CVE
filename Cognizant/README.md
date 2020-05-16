@@ -18,8 +18,7 @@ Target uses simple AES CBC encryption with hard-coded key and IV value on login 
 
 This allows malicious user easily decrypt/encrypt username and password value. This may allow attacker for bruteforcing, username enumeration etc. 
 
-To test the WEAK encryption/decryption simply on Internet Browser, you can run developer menu by CTRL+SHIFT+I(Inspect Element) or press [F12] on Chrome/Firefox.
-You can go to [console] tab and copy and paste below script and run. Please see more details on PoC github. https://github.com/f0ferror/CVE/tree/master/Cognizant
+To test the WEAK encryption/decryption on Internet Browser, simply run 'developer menu' by CTRL+SHIFT+I(Inspect Element) or press [F12] on Chrome/Firefox. Then, you can go to [console] tab and copy and paste below script and run. Please see more details on PoC github. https://github.com/f0ferror/CVE/tree/master/Cognizant
 <br />
 
 #### Encryption :
