@@ -3,8 +3,7 @@ This vulnerability hasn't been tagged with CVE#, currently waiting for CVE.org -
 ## Target Search 
 
 **Target** : Cognizant v4.13 <br />
-**GHDB** : 
-<br />-allintitle: "Digital operations fabric"
+**GHDB** : '''-allintitle: "Digital operations fabric" '''
  
 <br />
 
