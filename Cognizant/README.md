@@ -13,7 +13,7 @@ On recent web platform, "Digital Operation Fabric" product version 4.13 has hard
 ![image](https://github.com/f0ferror/CVE/blob/master/Cognizant/Encrypt_decrypt/poc_screenshot/login.controller.png)
 
 
-Target uses simple AES CBC encryption with hard-coded key and IV value on login form and stores encrypted values in log files internally(eg. \LogFiles\DOFAPI\FDIC370_17.03.2020.log or \LogFiles\ADMINAPI\FDIC370_20.03.2020.log)
+Target uses simple AES CBC encryption with hard-coded key and IV value on login form and stores encrypted values in log files internally(eg. \LogFiles\DOFAPI\FDIC370_*.*.2020.log or \LogFiles\ADMINAPI\FDIC370_*.*.2020.log)
 
 This allows malicious user easily decrypt/encrypt username and password value. This may allow attacker for bruteforcing, username enumeration etc. 
 
